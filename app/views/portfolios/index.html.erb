@@ -10,7 +10,7 @@
 
 <% @portfolios.each do |portfolio| %>
   <tr>
-    <td><%= portfolio.description %></td>
+    <td><%= portfolio.description%></td>
     <td><%= link_to 'Show', portfolio %></td>
     <td><%= link_to 'Edit', edit_portfolio_path(portfolio) %></td>
     <td><%= link_to 'Destroy', portfolio, confirm: 'Are you sure?', method: :delete %></td>
